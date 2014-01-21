@@ -1,0 +1,71 @@
+/* CSS document 8/
+
+CSS is structured as follows:
+
+selector {
+
+    property: vaule;
+    Property: value;
+    Property: value
+    
+}
+
+Each selector is paired with and styles an element. for example: 
+
+html{} is paired with and styles <html> 
+
+*/
+
+html {
+     font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:#ccc;
+}
+
+h1 {
+    font-family: Georgia, "Times New Romasn", serif; 
+    font-size: 3rem; /*   */
+    font-weight: normal;
+}
+
+p,
+li {
+    font-size: 1rem; 
+    line-height: 1.5rem; 
+}
+
+h1 + p {
+    font-size:1.5rem;
+    line-height: 1.75rem;
+}
+
+strong {
+    font-weight: bold;
+}
+    
+em {
+    font-weight: italic;
+}
+    
+hr {
+    border: solid 4px #f00;
+}
+
+ul,
+ol {
+    background-color:#fff;
+}
+
+li {
+    color: #f00;
+}
+
+ol li:first-child {
+    background-color:#f00;
+}
+    
+ol li:last-child  {
+    background-color:#f90;
+}  
